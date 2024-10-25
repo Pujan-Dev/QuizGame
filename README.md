@@ -22,7 +22,7 @@ Hey there! Welcome to the **Quiz Game**! 🎉 Test your programming knowledge wi
 
 ## Contact Me
 Got questions or feedback? Hit me up!
-- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/pujan-neupane/)
-- **GitHub**: [Your GitHub](https://github.com/Pujan-Dev)
+- **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/pujan-neupane/)
+- **GitHub**: [GitHub](https://github.com/Pujan-Dev)
 
 Enjoy the game! 😊
