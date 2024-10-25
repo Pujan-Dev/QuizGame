@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#Welcome {
+    padding: 10rem 0 1rem;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #333;
+}
+
+#score {
+    position: absolute;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: #333;
+    background-color: rgba(0, 128, 0, 0.1);
+    margin-top: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+#menu {
+    margin: 2rem auto;
+    text-align: center;
+    max-width: 800px;
+}
+
+#Question {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #555;
+}
+
+#Option {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+#Option button {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+#button,
+#Option button:hover {
+    background-color: rgba(200, 200, 200, 0.8);
+    cursor: pointer;
+}
+
+#button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+#button:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+}
+
+#submit {
+    margin: 20px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 8px;
+    padding: 24px 80px;
+    font-size: 24px;
+}
+
+#submit:hover {
+    background-color: rgb(153, 245, 16);
+    cursor: pointer;
+}
+
+#submit:focus {
+    background-color: rgb(139, 209, 34);
+}
+
+#gameOver {
+    font-size: 2rem;
+    color: red;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#developerFooter {
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    background-color: #f1f1f1;
+    font-size: 1rem;
+    color: #555;
+}
+#extra{
+    color :#2d91d4;
+    font-weight: bold;
+}
